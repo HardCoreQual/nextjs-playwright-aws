@@ -1,2 +1,2 @@
-NEXTJS-PLAYWRIGHT is an example to help you understand how to use a playwright in your NEXTJS or VERCEL project
+Playwright-Vercel is an example to help you understand how to use a playwright in your Vercel project
 
