@@ -1,7 +1,8 @@
 import chromium  from 'chrome-aws-lambda';
 import playwright from 'playwright-core';
+import {NextApiRequest, NextApiResponse} from "next";
 
-export default async function (req: any, res: any) {
+export default async function (req: NextApiRequest, res: NextApiResponse) {
   const isOnVercel = chromium.headless;
 
   const browser = await playwright.chromium.launch(isOnVercel ? {
